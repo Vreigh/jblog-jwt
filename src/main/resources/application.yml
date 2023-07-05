@@ -7,4 +7,7 @@ spring:
     url: ${MYSQL_URL}
     username: ${MYSQL_USERNAME}
     password: ${MYSQL_PASSWORD}
+jwt:
+  jwt-duration: 3600
+  jwt-signing-key: "067e2ccd46df4a3c070f8c12c0d09a7c55128c510666101989e60c1161bd3341e71e30b3cf79491ed22990733681fc614a0442ae8a1bb8badbb7475c81ff6f59"
 
