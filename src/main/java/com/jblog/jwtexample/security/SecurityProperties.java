@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "jwt")
 public class SecurityProperties {
 
-    private String jwtSigningKey;
     private Long jwtDuration;
+    private String jwtSigningKey;
+
 }

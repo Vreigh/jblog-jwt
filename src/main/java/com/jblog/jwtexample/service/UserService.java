@@ -15,7 +15,6 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    @Transactional
     public User getUserByEmail(String email) {
         return userRepository.findByEmail(email).orElseThrow(() -> new GeneralBusinessException("No user found"));
     }
